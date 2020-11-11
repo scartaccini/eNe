@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from WORKSPACE.views import numeros,ingresar
-
+##url ingreso, ingresar num secreto
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ene/<int:numero1>/<int:numero2>/<int:numero3>/<int:numero4>', numeros),
